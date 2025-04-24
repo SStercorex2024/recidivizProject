@@ -1,0 +1,43 @@
+.hero {
+  background-image: url("/img/hero/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  min-height: 776px;
+
+  @include mediaBg {
+    background-image: url("/img/hero/hero-bg@2x.jpg");
+  }
+
+  &__text {
+    grid-column: span 6;
+    padding-top: 189px;
+  }
+
+  &__title {
+    margin-bottom: 29px;
+  }
+
+  &__description {
+    @include fs-lh(18, 28);
+    margin-bottom: 29px;
+  }
+
+  &__btn {
+    letter-spacing: 0.02px;
+    @include fs-lh(13, 22);
+    margin-bottom: 122px;
+  }
+
+  &__states {
+    p {
+      margin-bottom: 15px;
+    }
+
+    &-item {
+      padding-top: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.6);
+    }
+  }
+}

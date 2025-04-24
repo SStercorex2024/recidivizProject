@@ -1,0 +1,43 @@
+@mixin mediaBg() {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    @content;
+  }
+}
+
+//миксины для адаптивной верстки
+@mixin tablet() {
+  @media (max-width: 1220px) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media (max-width: 820px) {
+    @content;
+  }
+}
+
+@mixin hover {
+  @media (any-hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}
+
+
+$base-font-size: 15;
+
+//@mixin fs-lh($size, $height) {
+//  font-size: #{($size / $base-font-size)}rem;
+//  line-height: $height / $size;
+//}
+
+@mixin fs-lh($size,$height) {
+  font-size: #{$size}px;
+  line-height: $height / $size;
+}
+
+@mixin rem($property, $px) {
+  #{$property}: #{($px / $base-font-size)}rem;
+}

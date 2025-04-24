@@ -1,0 +1,19 @@
+.header__nav {
+}
+
+.nav {
+  font-size: 18px;
+
+  &__list {
+    display: flex;
+    align-items: baseline;
+    column-gap: 50px;
+  }
+
+  &__link {
+    @include fs-lh(13, 16);
+  }
+}
+
+.active {
+}

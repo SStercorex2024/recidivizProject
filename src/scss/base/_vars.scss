@@ -1,0 +1,29 @@
+:root {
+  --container-width: 1280px;
+  --container-padding: 64px;
+
+  --font-main: 'PublicSans', sans-serif;
+  --font-accent: 'LibreBaskerville', sans-serif;
+  --font-titles: var(--font-accent);
+  --font-size-main: 15px;
+  --line-height-main: 1.666;
+
+  --border-radius-large: 80px;
+
+  --page-bg: #F7F8F8;
+  --text-color: #FFFFFF;
+  --accent: #ac182c;
+  --accent-transparent: rgba(172, 24, 44, 0.4);
+  --link-color: #FFFFFF;
+  --color-title-alt: #003331;
+
+
+  --laptop-size: 1199px;
+  --tablet-size: 959px;
+  --mobile-size: 599px;
+}
+
+.dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+}
