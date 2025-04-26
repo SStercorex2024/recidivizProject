@@ -4,13 +4,22 @@
 
   &--1 {
     @include fs-lh(38, 44);
+
   }
 
   &--2 {
     @include fs-lh(30, 38);
+    color: var(--color-title-alt);
+
   }
 
   &--3 {
     @include fs-lh(27, 38);
+    color: var(--color-title-alt);
+  }
+
+  &--4 {
+    font-family: var(--font-main);
+    @include fs-lh(22, 22);
   }
 }

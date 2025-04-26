@@ -1,0 +1,33 @@
+.banner {
+  background-image: url("../../img/banner/1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @include mediaBg {
+    background-image: url("../../img/banner/1@2x.jpg");
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 246px 0;
+    row-gap: 24px;
+    max-width: 542px;
+
+    &-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__title {
+
+  }
+
+  &__description {
+    @include fs-lh(15, 22)
+  }
+}

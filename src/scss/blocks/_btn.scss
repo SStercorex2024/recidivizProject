@@ -19,4 +19,19 @@
     border: 1px solid var(--accent);
     background-color: #8ccae6;
   }
+
+  &--alt-theme {
+    border-color: var(--color-border-btn-alt);
+
+    @include hover {
+      border: 1px solid var(--accent-transparent);
+      color: lightseagreen;
+    }
+
+    &:active {
+      border: 1px solid var(--accent);
+      background-color: #8ccae6;
+    }
+  }
+
 }

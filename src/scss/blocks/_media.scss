@@ -1,0 +1,30 @@
+.media {
+
+  &__list {
+    padding: 24px 0;
+    text-align: center;
+    align-content: center;
+  }
+
+  &__item {
+    border-top: 1px solid var(--color-border-btn-alt);
+    text-align: left;
+  }
+
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+    column-gap: 8px;
+    position: relative;
+    padding: 16px 0 0 32px;
+
+    color: var(--text-color-alt);
+
+    img {
+      position: absolute;
+      top: 16px;
+      left: 0;
+    }
+  }
+}
