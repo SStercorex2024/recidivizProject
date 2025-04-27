@@ -1,0 +1,36 @@
+.information {
+  background-color: var(--page-bg-cover);
+
+  &__container {
+    padding-bottom: 132px;
+  }
+
+  &__title {
+    &-wrapper {
+      grid-column: span 6;
+      max-width: 424px;
+    }
+  }
+
+  &__text {
+    &-wrapper {
+      grid-column: span 6;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 32px;
+      row-gap: 36px;
+    }
+
+    &-title {
+      color: var(--color-title-alt);
+
+      margin-bottom: 8px;
+
+      @include fs-lh(15, 24);
+
+    }
+  }
+
+  &__description {
+  }
+}

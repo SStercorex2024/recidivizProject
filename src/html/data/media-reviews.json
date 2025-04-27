@@ -1,0 +1,38 @@
+[
+  {
+    "img": "media-icon-1.svg",
+    "name": "TED Talks",
+    "date": "2.22.22",
+    "title": "Meet the 2022 class of TED Fellows"
+  },
+  {
+    "img": "media-icon-2.svg",
+    "name": "Correctional News",
+    "date": "2.2.22",
+    "title": "New Partnership Aims to Help Transform Prison Conditions"
+  },
+  {
+    "img": "media-icon-3.svg",
+    "name": "Department of Justice",
+    "date": "4.26.22",
+    "title": "Justice Department Establishes Initiative to Strengthen States’ Use of Criminal Justice Data"
+  },
+  {
+    "img": "media-icon-4.svg",
+    "name": "The New York Times",
+    "date": "12.27.21",
+    "title": "The 2021 Good Tech Awards"
+  },
+  {
+    "img": "media-icon-5.svg",
+    "name": "Corrections1",
+    "date": "11.18.21",
+    "title": "Maine DOC to better harness correctional data to improve outcomes"
+  },
+  {
+    "img": "media-icon-6.svg",
+    "name": "Right on Crime",
+    "date": "9.9.21",
+    "title": "Together, We Can Make Mississippi Safer and Reentry-Ready"
+  }
+]

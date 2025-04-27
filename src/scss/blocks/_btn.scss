@@ -4,6 +4,8 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: var(--border-radius-large);
 
+  @include fs-lh(13, 20);
+
   transition: color .3s ease-in-out, background-color .2s ease-in-out, border-color .3s ease-in-out;
 
   &:focus {
@@ -23,14 +25,11 @@
   &--alt-theme {
     border-color: var(--color-border-btn-alt);
 
+    color: var(--color-btn-alt);
+
     @include hover {
       border: 1px solid var(--accent-transparent);
       color: lightseagreen;
-    }
-
-    &:active {
-      border: 1px solid var(--accent);
-      background-color: #8ccae6;
     }
   }
 

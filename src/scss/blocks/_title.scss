@@ -2,24 +2,35 @@
   font-family: var(--font-accent);
   letter-spacing: 1.2px;
 
+  color: var(--color-title-alt);
+
+
   &--1 {
     @include fs-lh(38, 44);
+    color: var(--text-color);
 
   }
 
   &--2 {
     @include fs-lh(30, 38);
-    color: var(--color-title-alt);
-
   }
 
   &--3 {
     @include fs-lh(27, 38);
-    color: var(--color-title-alt);
   }
 
   &--4 {
     font-family: var(--font-main);
+    color: var(--text-color);
     @include fs-lh(22, 22);
+
+    &-alt-color {
+      color: var(--color-title-alt);
+
+    }
+  }
+
+  &--5 {
+    font-family: var(--font-main);
   }
 }

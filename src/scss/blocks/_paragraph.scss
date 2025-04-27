@@ -1,0 +1,8 @@
+.paragraph {
+
+  &--text {
+    color: var(--text-color-alt);
+
+    @include fs-lh(15, 22);
+  }
+}

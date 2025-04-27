@@ -1,0 +1,14 @@
+.cover {
+  background-image: url("../img/cover/1.jpg");
+  height: 820px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @include mediaBg {
+    background-image: url("../img/cover/1@2x.jpg");
+  }
+
+  .container {
+  }
+}
