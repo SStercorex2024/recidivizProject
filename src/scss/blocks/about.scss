@@ -1,0 +1,43 @@
+.about {
+  background-color: var(--color-bg-alt);
+
+  &__content {
+    padding: 112px 0 138px;
+  }
+
+  &__list {
+    grid-column: span 2;
+
+    &:last-of-type {
+      grid-column: -3;
+    }
+
+    &--item {
+      display: grid;
+
+    }
+
+    &--title {
+      position: relative;
+      color: var(--color-title-alt-second);
+      padding-bottom: 24px;
+      text-transform: uppercase;
+
+      &::after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        width: 16px;
+        height: 1px;
+        background-color: #25B895;
+      }
+    }
+
+    &--link {
+      &:first-of-type {
+        padding-top: 24px;
+      }
+    }
+  }
+}

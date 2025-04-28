@@ -1,0 +1,21 @@
+.where-banner {
+  background-color: var(--bg-color-where-banner);
+
+  &__container {
+    padding: 143px 133px;
+  }
+
+  &__title{
+    padding-bottom: 43px;
+  }
+
+  &__description {
+    padding-bottom: 37px;
+    @include fs-lh(18, 28);
+  }
+
+  &__img {
+    width: 461px;
+    height: 342px;
+  }
+}

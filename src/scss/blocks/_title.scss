@@ -31,6 +31,7 @@
   }
 
   &--5 {
-    font-family: var(--font-main);
+    @include fs-lh(36, 52);
+    color: var(--text-color);
   }
 }
